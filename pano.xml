@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.11" apprev="18043" start="node3">
+<tour apprev="18043" start="node3" appversion="6.1.11">
   <panorama id="node3">
-    <input overlap="1" width="2048" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" height="2048" levelbias="0.400" levelingpitch="0">
-      <level predecode="0" width="2048" preload="0" height="2048"/>
-      <level predecode="0" width="1024" preload="0" height="1024"/>
-      <level predecode="0" width="512" preload="0" height="512"/>
-      <level predecode="1" width="256" preload="1" height="256"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelbiashidpi="1.000" levelingpitch="0" height="2048" leveltilesize="510" overlap="1" levelingroll="0">
+      <level preload="0" width="2048" height="2048" predecode="0"/>
+      <level preload="0" width="1024" height="1024" predecode="0"/>
+      <level preload="0" width="512" height="512" predecode="0"/>
+      <level preload="1" width="256" height="256" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="0" projection="4" pan="0" fov="70"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" scaletofit="1" pan="360" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <start pan="0" tilt="0" fov="70" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270"/>
     </view>
-    <userdata author="" description="" source="" latitude="" longitude="" datetime="07/12/2022 11:01 AM" comment="" copyright="" tags="4. 2nd Milan" customnodeid="" heading="0" title="" nodeid="node3" info=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label textcolor="0x000000" enabled="1" backgroundalpha="1" border="1" borderradius="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1" height="20" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot customimageheight="75" tilt="-9.98" description="" target="" id="Point03" url="images/The_Virgin_and_Child_with_St._Anne_(Leonardo_da_Vinci).png" distance3D="428.627" skinid="ht_image" customimagewidth="75" use3D="0" pan="-9.32" fov="10" title="Virgin and Child with St. Anne, c.1510" customimage="media/image_arti_figurative.png"/>
-      <hotspot customimageheight="75" tilt="8.37" description="Leonardo di ser Piero da Vinci[b] (15 April 1452 – 2 May 1519) was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect." target="" id="Point04" url="" distance3D="428.627" skinid="ht_info" customimagewidth="75" use3D="0" pan="-113.24" fov="10" title="Info" customimage="media/image_storia.png"/>
-      <hotspot customimageheight="75" tilt="-7.64" description="" target="" id="Point03" url="images/The_Virgin_and_Child_with_St._Anne_(Leonardo_da_Vinci).png" distance3D="428.627" skinid="ht_image" customimagewidth="75" use3D="0" pan="-281.71" fov="10" title="Virgin and Child with St. Anne, c.1510" customimage="media/image_arti_figurative.png"/>
+    <userdata datetime="07/12/2022 11:01 AM" customnodeid="" copyright="" author="" source="" info="" tags="4. 2nd Milan" nodeid="node3" longitude="" title="" description="" comment="" latitude="" heading="0"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label border="1" bordercolor="0x000000" background="1" backgroundalpha="1" borderalpha="1" borderradius="1" wordwrap="1" width="180" height="20" textalpha="1" backgroundcolor="0xffffff" textcolor="0x000000" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot skinid="ht_image" pan="-9.32" tilt="-9.98" customimageheight="75" fov="10" id="Point03" customimage="media/image_arti_figurative.png" distance3D="428.627" url="images/027125.jpg" customimagewidth="75" target="" use3D="0" title="Virgin and Child with St. Anne, c.1510" description=""/>
+      <hotspot skinid="ht_image" pan="-113.24" tilt="8.37" customimageheight="75" fov="10" id="Point04" customimage="media/image_storia.png" distance3D="428.627" url="images/Enscape_2022-07-15-16-15-20.jpg" customimagewidth="75" target="" use3D="0" title="Drawings" description=""/>
+      <hotspot skinid="ht_image" pan="-281.71" tilt="-7.64" customimageheight="75" fov="10" id="Point03" customimage="media/image_arti_figurative.png" distance3D="428.627" url="images/Enscape_2022-07-15-16-16-34.jpg" customimagewidth="75" target="" use3D="0" title="Virgin and Child with St. Anne, c.1510" description=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomfov="20" blendtime="1" zoomoutpause="1" zoomafteroutfov="20" type="crossdissolve" zoomafterinfov="90" blendcolor="0x000000" softedge="0" zoomspeed="2" zoomout="0"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" speedwheel="1" rubberband="0" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" lockedmouse="0" lockedwheel="0"/>
+    <transition blendtime="1" zoomoutpause="1" zoomafterinfov="90" softedge="0" type="crossdissolve" zoomafteroutfov="20" zoomin="0" zoomout="0" zoomspeed="2" blendcolor="0x000000" zoomfov="20" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" contextfullscreen="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" hideabout="0" sensitivity="8" lockedmouse="0" contextprojections="0" invertwheel="0" speedwheel="1" invertcontrol="1"/>
   </panorama>
   <masternode>
-    <userdata author="" description="" source="" latitude="" longitude="" datetime="" comment="" copyright="" tags="" customnodeid="" heading="0" title="" nodeid="master" info=""/>
+    <userdata datetime="" customnodeid="" copyright="" author="" source="" info="" tags="" nodeid="master" longitude="" title="" description="" comment="" latitude="" heading="0"/>
   </masternode>
 </tour>
