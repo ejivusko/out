@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18043" start="node1" appversion="6.1.11">
-  <panorama id="node1">
-    <input levelingroll="0" width="2048" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
-      <level predecode="0" width="1024" height="1024" preload="0"/>
-      <level predecode="0" width="512" height="512" preload="0"/>
-      <level predecode="1" width="256" height="256" preload="1"/>
+<tour appversion="6.1.11" apprev="18043" start="node3">
+  <panorama id="node3">
+    <input overlap="1" width="2048" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" leveltilesize="510" height="2048" levelbias="0.400" levelingpitch="0">
+      <level predecode="0" width="2048" preload="0" height="2048"/>
+      <level predecode="0" width="1024" preload="0" height="1024"/>
+      <level predecode="0" width="512" preload="0" height="512"/>
+      <level predecode="1" width="256" preload="1" height="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start tilt="-1.22" pan="122.14" projection="4" fov="86.18"/>
-      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <start tilt="0" projection="4" pan="0" fov="70"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270"/>
+      <max tilt="90" scaletofit="1" pan="360" fov="120" fovstereographic="270" fovfisheye="360"/>
     </view>
-    <userdata comment="" nodeid="node1" tags="go" customnodeid="" source="" longitude="" description="Chateau du clos luce" info="" latitude="" author="" datetime="" heading="0" title="Night" copyright=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label width="180" textcolor="0x000000" background="1" backgroundcolor="0xffffff" border="1" enabled="1" height="20" textalpha="1" backgroundalpha="1" borderradius="1" wordwrap="1" bordercolor="0x000000" borderalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot skinid="ht_info" customimageheight="75" distance3D="428.627" tilt="-14.24" pan="-235.9" customimagewidth="75" id="Point01" url="Book #1 - link" target="https://www.pravda.com.ua/" fov="10" description="Book #1 - &lt;a href=&quot;https://en.wikipedia.org/wiki/Leonardo_da_Vinci&quot;  style=&quot;color: red&quot;>link&lt;/a>&#xa;Book #2 - &lt;a href=&quot;https://en.wikipedia.org/wiki/Leonardo_da_Vinci&quot;  style=&quot;color: red&quot;>link&lt;/a>" use3D="0" title="Literature" customimage="media/image_letteratura.png"/>
-      <hotspot skinid="ht_image" customimageheight="75" distance3D="428.627" tilt="-19.8" pan="-243.38" customimagewidth="75" id="Point03" url="images/The_Virgin_and_Child_with_St._Anne_(Leonardo_da_Vinci).png" target="" fov="10" description="" use3D="0" title="Virgin and Child with St. Anne, c.1510" customimage="media/image_arti_figurative.png"/>
-      <hotspot skinid="ht_info" customimageheight="75" distance3D="428.627" tilt="-12.34" pan="-244.8" customimagewidth="75" id="Point04" url="" target="" fov="10" description="Leonardo di ser Piero da Vinci[b] (15 April 1452 – 2 May 1519) was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect." use3D="0" title="Info" customimage="media/image_storia.png"/>
+    <userdata author="" description="" source="" latitude="" longitude="" datetime="07/12/2022 11:01 AM" comment="" copyright="" tags="4. 2nd Milan" customnodeid="" heading="0" title="" nodeid="node3" info=""/>
+    <hotspots width="180" wordwrap="1" height="20">
+      <label textcolor="0x000000" enabled="1" backgroundalpha="1" border="1" borderradius="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" background="1" wordwrap="1" height="20" borderalpha="1"/>
+      <polystyle backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot customimageheight="75" tilt="-9.98" description="" target="" id="Point03" url="images/The_Virgin_and_Child_with_St._Anne_(Leonardo_da_Vinci).png" distance3D="428.627" skinid="ht_image" customimagewidth="75" use3D="0" pan="-9.32" fov="10" title="Virgin and Child with St. Anne, c.1510" customimage="media/image_arti_figurative.png"/>
+      <hotspot customimageheight="75" tilt="8.37" description="Leonardo di ser Piero da Vinci[b] (15 April 1452 – 2 May 1519) was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect." target="" id="Point04" url="" distance3D="428.627" skinid="ht_info" customimagewidth="75" use3D="0" pan="-113.24" fov="10" title="Info" customimage="media/image_storia.png"/>
+      <hotspot customimageheight="75" tilt="-7.64" description="" target="" id="Point03" url="images/The_Virgin_and_Child_with_St._Anne_(Leonardo_da_Vinci).png" distance3D="428.627" skinid="ht_image" customimagewidth="75" use3D="0" pan="-281.71" fov="10" title="Virgin and Child with St. Anne, c.1510" customimage="media/image_arti_figurative.png"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomout="0" zoomspeed="2" enabled="1" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomafterinfov="90" zoomafteroutfov="20" zoomin="0"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0" sensitivity="8" invertcontrol="1" invertwheel="0" speedwheel="1" hideabout="0" rubberband="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" contextfullscreen="1" contextprojections="0"/>
+    <transition zoomin="0" enabled="1" zoomfov="20" blendtime="1" zoomoutpause="1" zoomafteroutfov="20" type="crossdissolve" zoomafterinfov="90" blendcolor="0x000000" softedge="0" zoomspeed="2" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control sensitivity="8" speedwheel="1" rubberband="0" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" contextfullscreen="1" lockedmouse="0" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata comment="" nodeid="master" tags="" customnodeid="" source="" longitude="" description="" info="" latitude="" author="" datetime="" heading="0" title="" copyright=""/>
+    <userdata author="" description="" source="" latitude="" longitude="" datetime="" comment="" copyright="" tags="" customnodeid="" heading="0" title="" nodeid="master" info=""/>
   </masternode>
 </tour>
